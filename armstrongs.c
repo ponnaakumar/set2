@@ -1,10 +1,8 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
   int n1, n2, i, temp, num, rem;
-  printf("Enter two numbers(intervals): ");
   scanf("%d %d", &n1, &n2);
-  printf("Armstrong numbers between %d an %d are: ", n1, n2);
   for(i=n1+1; i<n2; ++i)
   {
       temp=i;
